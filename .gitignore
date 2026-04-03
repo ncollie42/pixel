@@ -1,0 +1,23 @@
+# Build artifacts
+/build/
+/game_hot_reload.bin
+*.so
+*.a
+*.bin
+*.o
+*.exe
+
+# Sokol shader compiler binaries (downloaded by: build.py -update-sokol)
+/sokol-shdc/
+
+# Vendored sokol bindings (downloaded by: build.py -update-sokol)
+/source/sokol/
+
+# Generated shader bindings (produced by: sokol-shdc during build)
+source/gen__*.odin
+
+# Editor / OS
+*.swp
+*~
+.DS_Store
+Thumbs.db
